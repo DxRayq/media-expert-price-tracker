@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/test)
+![Static Badge](https://img.shields.io/badge/Discord)
+
 
 # Media Expert Price Tracker
 
