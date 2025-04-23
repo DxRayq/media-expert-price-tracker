@@ -1,3 +1,5 @@
+[![GitHub contributors](https://img.shields.io/github/contributors/TwojLoginGitHub/MediaExpertPriceTracker)](https://github.com/TwojLoginGitHub/MediaExpertPriceTracker/graphs/contributors)
+
 # Media Expert Price Tracker
 
 ## Opis
