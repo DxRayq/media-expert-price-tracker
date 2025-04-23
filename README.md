@@ -1,4 +1,4 @@
-[![Contributors](https://img.shields.io/github/contributors/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/graphs/contributors) [![Stars](https://img.shields.io/github/stars/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/stargazers) [![Issues](https://img.shields.io/github/issues/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/issues) [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Contributors](https://img.shields.io/github/contributors/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/graphs/contributors) [![Issues](https://img.shields.io/github/issues/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/issues) [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
 # Media Expert Price Tracker
 
