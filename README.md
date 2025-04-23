@@ -51,22 +51,21 @@ Przed pierwszym uruchomieniem skryptu `price_tracker.py`, musisz dostosować kil
     *   `CSV_FILE`: Nazwa pliku, w którym będzie przechowywana historia cen. Domyślnie jest to `'price_history.csv'`. Możesz ją zmienić, jeśli chcesz.
 
 ## Użycie
-1.  Upewnij się, że środowisko jest skonfigurowane i (jeśli używasz) wirtualne środowisko jest aktywne.
-2.  Przejdź do folderu projektu w terminalu.
-3.  Uruchom skrypt za pomocą polecenia:
+1.  Przejdź do folderu projektu w terminalu.
+2.  Uruchom skrypt za pomocą polecenia:
     ```bash
     python price_tracker.py
     ```
-4.  Program poprosi Cię o wykonanie dwóch czynności:
+3.  Program poprosi Cię o wykonanie dwóch czynności:
     *   Wklejenie pełnego linku URL do strony produktu na `mediaexpert.pl`, którego cenę chcesz śledzić.
     *   Podanie progu cenowego (jako liczby, np. `1599` lub `249.50`), poniżej którego skrypt ma wysłać powiadomienie.
-5.  Po podaniu danych, skrypt rozpocznie monitorowanie i będzie wyświetlał informacje w terminalu:
+4.  Po podaniu danych, skrypt rozpocznie monitorowanie i będzie wyświetlał informacje w terminalu:
     *   Potwierdzenie rozpoczęcia monitorowania i ustawionego progu.
     *   Komunikaty o każdym cyklu sprawdzania ceny (zawierające datę, godzinę i wynik sprawdzenia - znalezioną cenę lub informację o błędzie).
     *   Wyraźne powiadomienie w terminalu, jeśli cena spadnie poniżej progu i zostanie wysłany e-mail.
     *   Informacje o zapisaniu/aktualizacji wykresu cen.
-6.  Skrypt będzie działał w pętli, sprawdzając cenę w ustalonych odstępach czasu, aż do momentu jego ręcznego zatrzymania.
-7.  Aby zatrzymać działanie skryptu, wróć do okna terminala, w którym jest uruchomiony, i naciśnij kombinację klawiszy `Ctrl + C`.
+5.  Skrypt będzie działał w pętli, sprawdzając cenę w ustalonych odstępach czasu, aż do momentu jego ręcznego zatrzymania.
+6.  Aby zatrzymać działanie skryptu, wróć do okna terminala, w którym jest uruchomiony, i naciśnij kombinację klawiszy `Ctrl + C`.
 
 ## Pliki wyjściowe
 Podczas działania, skrypt tworzy i/lub aktualizuje następujące pliki w tym samym katalogu, w którym został uruchomiony:
@@ -83,7 +82,6 @@ Podczas działania, skrypt tworzy i/lub aktualizuje następujące pliki w tym sa
 *   **Etyka:** Proszę, używaj tego skryptu w sposób odpowiedzialny i wyłącznie do monitorowania cen na własny użytek. Nadmierne odpytywanie serwera może prowadzić do blokady i jest nieetyczne.
 *   **Zmienność stron:** Pamiętaj, że sklepy internetowe często aktualizują swoje strony. Skrypt może wymagać modyfikacji w przyszłości, aby dostosować się do tych zmian. Działanie skryptu nie jest gwarantowane na zawsze.
 *   **Ograniczenia:** Skrypt jest zaprojektowany dla strony `mediaexpert.pl`. Próba użycia go na innych stronach najprawdopodobniej się nie powiedzie bez znaczących modyfikacji.
-*   **Licencja:** Ten projekt jest udostępniany na licencji MIT. [![License](https://img.shields.io/github/license/DxRayq/media-expert-price-tracker?style=flat-square)](./LICENSE)
 
 ## Zgłaszanie błędów i sugestie
 Jeśli znajdziesz błąd lub masz pomysł na nową funkcję, proszę, utwórz zgłoszenie (Issue) w repozytorium GitHub:
