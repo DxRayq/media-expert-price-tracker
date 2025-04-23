@@ -13,7 +13,7 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
 
 ## Wymagania
 *   Python 3.6 lub nowszy
-*   Biblioteki Python (`pip install -r requirements.txt`):
+*   Biblioteki Python:
     *   `cloudscraper` (i jego zależności, w tym `requests`)
     *   `beautifulsoup4`
     *   `lxml` (jako parser dla BeautifulSoup)
@@ -24,7 +24,7 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
 2.  Otwórz terminal lub wiersz poleceń w swoim systemie.
 3.  Zainstaluj wszystkie wymagane biblioteki za pomocą poniższego polecenia:
     ```bash
-    pip install cloudscraper beautifulsoup4 lxml matplotlib
+    pip install -r requirements.txt
     ```
 
 ## Konfiguracja
