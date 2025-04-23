@@ -1,6 +1,4 @@
-![Static Badge](https://img.shields.io/badge/test-blue)
-
-
+[![Contributors](https://img.shields.io/github/contributors/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/graphs/contributors) [![Forks](https://img.shields.io/github/forks/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/network/members) [![Stars](https://img.shields.io/github/stars/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/stargazers) [![Issues](https://img.shields.io/github/issues/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/issues) [![License](https://img.shields.io/github/license/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](./LICENSE) [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
 # Media Expert Price Tracker
 
@@ -17,16 +15,29 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
 
 ## Wymagania
 *   Python 3.6 lub nowszy
-*   Biblioteki Python:
+*   Biblioteki Python (zobacz `requirements.txt`):
     *   `cloudscraper` (i jego zależności, w tym `requests`)
     *   `beautifulsoup4`
     *   `lxml` (jako parser dla BeautifulSoup)
     *   `matplotlib`
 
 ## Instalacja
-1.  Upewnij się, że masz zainstalowany Python i narzędzie `pip`.
-2.  Otwórz terminal lub wiersz poleceń w swoim systemie.
-3.  Zainstaluj wszystkie wymagane biblioteki za pomocą poniższego polecenia:
+1.  Upewnij się, że masz zainstalowany Python (wersja 3.6+) i narzędzie `pip`.
+2.  Sklonuj repozytorium lub pobierz pliki.
+3.  Przejdź do folderu projektu w terminalu.
+4.  (Zalecane) Utwórz i aktywuj wirtualne środowisko:
+    ```bash
+    # Utwórz (tylko raz)
+    python -m venv .venv
+    # Aktywuj
+    # Linux/macOS:
+    source .venv/bin/activate
+    # Windows (cmd):
+    # .venv\Scripts\activate.bat
+    # Windows (PowerShell):
+    # .venv\Scripts\Activate.ps1
+    ```
+5.  Zainstaluj wymagane biblioteki:
     ```bash
     pip install -r requirements.txt
     ```
@@ -48,8 +59,8 @@ Przed pierwszym uruchomieniem skryptu `price_tracker.py`, musisz dostosować kil
     *   `CSV_FILE`: Nazwa pliku, w którym będzie przechowywana historia cen. Domyślnie jest to `'price_history.csv'`. Możesz ją zmienić, jeśli chcesz.
 
 ## Użycie
-1.  Zapisz kod programu jako plik, na przykład `price_tracker.py`.
-2.  Otwórz terminal lub wiersz poleceń, przejdź do folderu, w którym zapisałeś plik.
+1.  Upewnij się, że środowisko jest skonfigurowane i (jeśli używasz) wirtualne środowisko jest aktywne.
+2.  Przejdź do folderu projektu w terminalu.
 3.  Uruchom skrypt za pomocą polecenia:
     ```bash
     python price_tracker.py
