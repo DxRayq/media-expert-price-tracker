@@ -1,4 +1,4 @@
-[![Contributors](https://img.shields.io/github/contributors/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/graphs/contributors) [![Forks](https://img.shields.io/github/forks/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/network/members) [![Stars](https://img.shields.io/github/stars/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/stargazers) [![Issues](https://img.shields.io/github/issues/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](https://github.com/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium/issues) [![License](https://img.shields.io/github/license/TwojaNazwaUzytkownika/TwojaNazwaRepozytorium?style=flat-square)](./LICENSE) [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Contributors](https://img.shields.io/github/contributors/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/graphs/contributors) [![Forks](https://img.shields.io/github/forks/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/network/members) [![Stars](https://img.shields.io/github/stars/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/stargazers) [![Issues](https://img.shields.io/github/issues/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/issues) [![License](https://img.shields.io/github/license/DxRayq/media-expert-price-tracker?style=flat-square)](./LICENSE) [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
 # Media Expert Price Tracker
 
@@ -14,7 +14,7 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
 *   Wykorzystanie biblioteki `cloudscraper` do obchodzenia podstawowych zabezpieczeń anti-bot (Cloudflare), które mogą blokować standardowe zapytania.
 
 ## Wymagania
-*   Python 3.6 lub nowszy
+*   Python 3.6 lub nowszy [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 *   Biblioteki Python (zobacz `requirements.txt`):
     *   `cloudscraper` (i jego zależności, w tym `requests`)
     *   `beautifulsoup4`
@@ -24,6 +24,10 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
 ## Instalacja
 1.  Upewnij się, że masz zainstalowany Python (wersja 3.6+) i narzędzie `pip`.
 2.  Sklonuj repozytorium lub pobierz pliki.
+    ```bash
+    git clone https://github.com/DxRayq/media-expert-price-tracker.git
+    cd media-expert-price-tracker
+    ```
 3.  Przejdź do folderu projektu w terminalu.
 4.  (Zalecane) Utwórz i aktywuj wirtualne środowisko:
     ```bash
@@ -91,3 +95,8 @@ Podczas działania, skrypt tworzy i/lub aktualizuje następujące pliki w tym sa
 *   **Etyka:** Proszę, używaj tego skryptu w sposób odpowiedzialny i wyłącznie do monitorowania cen na własny użytek. Nadmierne odpytywanie serwera może prowadzić do blokady i jest nieetyczne.
 *   **Zmienność stron:** Pamiętaj, że sklepy internetowe często aktualizują swoje strony. Skrypt może wymagać modyfikacji w przyszłości, aby dostosować się do tych zmian. Działanie skryptu nie jest gwarantowane na zawsze.
 *   **Ograniczenia:** Skrypt jest zaprojektowany dla strony `mediaexpert.pl`. Próba użycia go na innych stronach najprawdopodobniej się nie powiedzie bez znaczących modyfikacji.
+*   **Licencja:** Ten projekt jest udostępniany na licencji MIT. [![License](https://img.shields.io/github/license/DxRayq/media-expert-price-tracker?style=flat-square)](./LICENSE)
+
+## Zgłaszanie błędów i sugestie
+Jeśli znajdziesz błąd lub masz pomysł na nową funkcję, proszę, utwórz zgłoszenie (Issue) w repozytorium GitHub:
+[![Issues](https://img.shields.io/github/issues/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/issues) -> [Utwórz nowe zgłoszenie](https://github.com/DxRayq/media-expert-price-tracker/issues/new/choose)
