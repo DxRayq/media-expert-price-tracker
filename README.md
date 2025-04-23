@@ -1,4 +1,4 @@
-[![Contributors](https://img.shields.io/github/contributors/TwojLoginGitHub/MediaExpertPriceTracker)](https://github.com/TwojLoginGitHub/MediaExpertPriceTracker/graphs/contributors)
+![Static Badge](https://img.shields.io/badge/test)
 
 # Media Expert Price Tracker
 
