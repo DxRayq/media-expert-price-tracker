@@ -9,7 +9,7 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
 *   Okresowe sprawdzanie ceny w zadanym interwale.
 *   Wysyłanie powiadomień e-mail, gdy cena produktu spadnie poniżej zdefiniowanego progu.
 *   Generowanie wykresu historii cen produktu (plik PNG).
-*   Wykorzystanie biblioteki `cloudscraper` do obchodzenia podstawowych zabezpieczeń anti-bot (np. Cloudflare), które mogą blokować standardowe zapytania.
+*   Wykorzystanie biblioteki `cloudscraper` do obchodzenia podstawowych zabezpieczeń anti-bot (Cloudflare), które mogą blokować standardowe zapytania.
 
 ## Wymagania
 *   Python 3.6 lub nowszy
