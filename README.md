@@ -29,19 +29,7 @@ Aplikacja w Pythonie do monitorowania ceny wybranego produktu na stronie `mediae
     cd media-expert-price-tracker
     ```
 3.  Przejdź do folderu projektu w terminalu.
-4.  (Zalecane) Utwórz i aktywuj wirtualne środowisko:
-    ```bash
-    # Utwórz (tylko raz)
-    python -m venv .venv
-    # Aktywuj
-    # Linux/macOS:
-    source .venv/bin/activate
-    # Windows (cmd):
-    # .venv\Scripts\activate.bat
-    # Windows (PowerShell):
-    # .venv\Scripts\Activate.ps1
-    ```
-5.  Zainstaluj wymagane biblioteki:
+4.  Zainstaluj wymagane biblioteki:
     ```bash
     pip install -r requirements.txt
     ```
