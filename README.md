@@ -86,3 +86,5 @@ Podczas działania, skrypt tworzy i/lub aktualizuje następujące pliki w tym sa
 ## Zgłaszanie błędów i sugestie
 Jeśli znajdziesz błąd lub masz pomysł na nową funkcję, proszę, utwórz zgłoszenie (Issue) w repozytorium GitHub:
 [![Issues](https://img.shields.io/github/issues/DxRayq/media-expert-price-tracker?style=flat-square)](https://github.com/DxRayq/media-expert-price-tracker/issues) -> [Utwórz nowe zgłoszenie](https://github.com/DxRayq/media-expert-price-tracker/issues/new/choose)
+
+W razie co, wbij też na naszego [Discorda](https://discord.gg/piwosze) i otwórz ticket!
